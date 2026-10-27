@@ -248,6 +248,14 @@ details p { font-size: 15px; margin: 8px 0 0; max-width: 70ch; }
 .btn--cream-line { border-color: rgba(244, 238, 227, .6); color: var(--paper); }
 .btn--cream-line:hover { background: rgba(244, 238, 227, .12); border-color: var(--paper); color: var(--paper); }
 
+/* ---------- Talks ---------- */
+.hero--plain { padding: 72px 0 8px; }
+.section.section--talks { padding-top: 48px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.talks-list .paper-links { margin-top: 14px; }
+.talks-list p + p { margin-top: 2px; }
+.talks-hint { font-size: 14px; color: var(--muted); }
+
 /* ---------- Workshop ---------- */
 .section.section--workshop { padding-top: 16px; padding-bottom: 0; }
 .section.section--workshop + .section { padding-top: 96px; }
@@ -287,6 +295,7 @@ details p { font-size: 15px; margin: 8px 0 0; max-width: 70ch; }
   .header-inner { height: 68px; gap: 12px; }
   .brand-name, .site-nav .nav-gh span { display: none; }
   .brand-short { display: inline; font-size: 20px; white-space: nowrap; }
+  .site-nav .nav-gh { display: none; }
   .site-nav a[href="index.html"] { display: none; }
   .contact-panel::after { display: none; }
   .site-nav { gap: 16px; }
@@ -317,8 +326,8 @@ details p { font-size: 15px; margin: 8px 0 0; max-width: 70ch; }
 
 @media (max-width: 380px) {
   .container { padding: 0 14px; }
-  .brand-short { font-size: 18px; }
-  .site-nav { gap: 12px; }
+  .brand-short { font-size: 17px; }
+  .site-nav { gap: 10px; }
   .site-nav a { font-size: 13px; }
   .site-nav .nav-cv { padding: 5px 10px; }
 }
