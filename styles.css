@@ -253,6 +253,7 @@ details p { font-size: 15px; margin: 8px 0 0; max-width: 70ch; }
 .section.section--talks { padding-top: 48px; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .talks-list .paper-links { margin-top: 14px; }
+.talks-list .paper-links a { display: inline-flex; align-items: center; gap: 6px; }
 .talks-list p + p { margin-top: 2px; }
 .talks-hint { font-size: 14px; color: var(--muted); }
 
